@@ -1,4 +1,20 @@
-﻿#include <iostream>
+﻿/*
+int *ptr = (int*)malloc(sizeof(int)) = int *mas = new int[size]
+
+free(ptr) = null (освобождаем место)
+free(ptrArr) = null (освобождаем место)
+
+
+
+*/
+
+
+
+
+
+
+
+#include <iostream>
 // Функция для построения треугольника Фибоначчи
 int** buildFibonacciTriangle(int numRows) {
     int** triangle = new int* [numRows]; // Создаем динамический двумерный массив
